@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * | Shift|      |      |      |      |      |      |ISO # |ISO / |      |      |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      | GUI  | Alt  | GUI  |      |Space |Shift |      | Next | Vol- | Vol+ | Play |
+ * |      | GUI  | Alt  | GUI  |      |Space |Shift |      | GUI  | ALT  | Ctrl |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT( \
@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   _______,  _______, _______, _______, _______, KC_DEL, \
   KC_LCTL, KC_F11,  KC_F12,  _______, _______, _______,  _______,  _______, _______, _______, _______, _______, \
   KC_LSFT, _______, _______, _______, _______, _______,  _______,  KC_NUHS, KC_NUBS, _______, _______, KC_ENT, \
-  _______, KC_LGUI, KC_LALT, KC_RGUI, _______, KC_SPACE, KC_RSFT, _______, KC_MNXT, KC_VOLD, KC_VOLU,  KC_MPLY \
+  _______, KC_LGUI, KC_LALT, KC_RGUI, _______, KC_SPACE, KC_RSFT,  _______, KC_RGUI, KC_RALT, KC_RCTL, _______ \
 ),
 
 /* Adjust (Lower + Raise)
